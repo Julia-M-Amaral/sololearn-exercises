@@ -1,45 +1,10 @@
-﻿//The program you are given defines an array with 10 words and takes a letter as input.
+﻿using SoloLearnExercises.Exercise;
 
-//Write a program to iterate through the array and output words containing the taken letter.
-
-//If there is no such word, the program should output "No match".
-
-//Sample Input
-
-//u
-
-//Sample Output
-
-//fun
-
-//Recall the Contains() method.
-
-string[] words =
+internal class Program
 {
-    "home",
-    "programming",
-    "victory",
-    "C#",
-    "football",
-    "sport",
-    "book",
-    "learn",
-    "dream",
-    "fun"
-};
-
-string letter = Console.ReadLine();
-int count = 0;
-
-foreach (string item in words)
-{
-    if (item.Contains(letter))
+    private static void Main(string[] args)
     {
-        Console.WriteLine(item);
-        count++;
+        StringMethod obj1 = new StringMethod();
+        obj1.OutputWords();
     }
-}
-if(count == 0)
-{
-    Console.WriteLine("No match");
 }
