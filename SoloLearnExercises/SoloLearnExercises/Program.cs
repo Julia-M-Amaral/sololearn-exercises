@@ -1,15 +1,13 @@
-﻿using SoloLearnExercises.Exercise;
-using SoloLearnExercises.Practice;
-using static SoloLearnExercises.Practice.StaticMethod;
+﻿using static SoloLearnExercises.Practice.StaticMethod;
 
 internal class Program
 {
     private static void Main(string[] args)
     {
         //StringMethod
-                        /*StringMethod obj1 = new StringMethod();
-                        obj1.OutputWords();
-                        */
+        /*StringMethod obj1 = new StringMethod();
+        obj1.OutputWords();
+        */
         //StringMethod
 
 
@@ -18,5 +16,7 @@ internal class Program
         Cat yumi = new Cat();
         Cat kira = new Cat();
         //StaticMethod
+
+        //test
     }
 }
